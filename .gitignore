@@ -1,0 +1,69 @@
+# Build artifacts
+
+/build/
+/bin/
+/obj/
+
+# Compiled binaries
+
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# Debugging
+
+*.dSYM/
+*.pdb
+*.ilk
+
+# CMake
+
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+Makefile
+!Makefile
+
+# IDEs
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Temporary files
+
+*.tmp
+*.temp
+*.log
+
+# Coverage
+
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# Generated documentation
+
+docs/_build/
+
+# Local test data
+
+local-data/
+samples/
+malware-samples/
+
+# Environment files
+
+.env
+.env.*
+!.env.example
